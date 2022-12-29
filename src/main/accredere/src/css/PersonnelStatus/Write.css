@@ -1,0 +1,65 @@
+@font-face { /* 이사만루 폰트 */
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{ /* 전체 css */
+    font-family: 'GongGothicMedium'; /* 이사만루 폰트 */
+    padding: 0px;
+    margin: 0px;
+    list-style: none;               /* 리스트 스타일 제거 */
+    text-decoration: none;
+}
+.write_webbox{ /* 전체 div */
+    width : 1200px;                 /* 전체 크기 */
+    margin : 0 auto;
+    margin-top: 50px;
+    padding: 50px;
+    background-color: #fde4ff;      /* 배경색 */
+    font-size: 35px;
+}
+
+
+.search_box1{      /* 검색창 */
+    border-bottom: solid 1px #999999;
+    width: 50%;
+    font-weight: bold;
+    margin: 20px auto;
+    padding: 5px;
+    display: table;
+}
+
+.member_box{    /* 검색결과 출력창 */
+    border : solid 1px red;
+    text-align : center;
+    margin: 5px auto;
+    width: 50%;
+    height: 80px;
+}
+
+.write_btn{       /* 발령, 취소 버튼 박스 */
+    margin: 20px;
+    padding: 10px;
+    width: 100%;
+    text-align : center;
+}
+.per_table{
+    text-align: center;
+    margin: auto;
+    padding: 7px;
+}
+
+.per_table td{
+    border: solid 1px #262227;
+    font-size : 17px;
+}
+
+
+.write_btn button{
+    width: 100px;
+    height: 50px;
+    margin: 15px;
+    font-size: 17px;
+}

@@ -1,0 +1,174 @@
+@font-face { /* 이사만루 폰트 */
+    font-family: 'GongGothicLight';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{ /* 전체 css */
+    font-family: 'GongGothicLight'; /* 이사만루 폰트 */
+    padding: 0px;
+    margin: 0px;
+    list-style: none;               /* 리스트 스타일 제거 */
+    text-decoration: none;
+}
+.addbox{    /* 전체 div */
+    width : 1000px;                 /* 전체 크기 */
+    margin : 0 auto;
+    margin-top: 50px;
+    padding: 50px;
+    background-color: #fcf8ff;      /* 배경색 */
+}
+
+.add_title{         /* 제목 */
+    font-size: 25px;
+}
+.member{            /* form 박스 */
+    margin: 15px;
+    padding: 10px;
+}
+
+.add_select_list{       /* 직원추가 select 박스 */
+    text-align: left;
+    margin: 20px;
+    padding: 5px;
+    font-size: 25px;
+}
+.add_input_box{         /* 직원추가 정보입력 input 박스*/
+    text-align: left;
+    margin: 20px;
+    padding: 5px;
+    font-size: 25px;
+}
+button:focus {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px #d1b8e1;
+}
+.mphoto_box{
+    display: flex;
+    padding : 28px;
+}
+.mphoto{
+    text-align: left;
+    color: #6f48eb;
+    width : 160px;
+    height : 120px;
+    min-width: 44px;
+    background: none;
+    font-size: 16px;
+    margin-top: 8px;
+}
+.PersonAdd_mphoto_box{
+    text-align: left;
+}
+
+
+
+
+
+
+
+/* 상진 */
+.react-calendar {
+ width: 400px;
+ max-width: 100%;
+ background-color: #fff;
+ color: #222;
+ border-radius: 8px;
+ box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+ font-family: Arial, Helvetica, sans-serif;
+ line-height: 1.125em;
+}
+.react-calendar__navigation button {
+ color: #6f48eb;
+ min-width: 44px;
+ background: none;
+ font-size: 16px;
+ margin-top: 8px;
+}
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+ background-color: #f8f8fa;
+}
+.react-calendar__navigation button[disabled] {
+ background-color: #f0f0f0;
+}
+abbr[title] {
+ text-decoration: none;
+}
+/* .react-calendar__month-view__days__day--weekend {
+ color: #d10000;
+} */
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+ background: #f8f8fa;
+ color: #6f48eb;
+ border-radius: 6px;
+}
+.react-calendar__tile--now {
+ background: #6f48eb33;
+ border-radius: 6px;
+ font-weight: bold;
+ color: #6f48eb;
+}
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus {
+ background: #6f48eb33;
+ border-radius: 6px;
+ font-weight: bold;
+ color: #6f48eb;
+}
+.react-calendar__tile--hasActive:enabled:hover,
+.react-calendar__tile--hasActive:enabled:focus {
+ background: #f8f8fa;
+}
+.react-calendar__tile--active {
+ background: #6f48eb;
+ border-radius: 6px;
+ font-weight: bold;
+ color: white;
+}
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+ background: #6f48eb;
+ color: white;
+}
+.react-calendar--selectRange .react-calendar__tile--hover {
+ background-color: #f8f8fa;
+}
+.react-calendar__tile--range {
+ background: #f8f8fa;
+ color: #6f48eb;
+ border-radius: 0;
+}
+.react-calendar__tile--rangeStart {
+ border-top-right-radius: 0;
+ border-bottom-right-radius: 0;
+ border-top-left-radius: 6px;
+ border-bottom-left-radius: 6px;
+ background: #6f48eb;
+ color: white;
+}
+.react-calendar__tile--rangeEnd {
+ border-top-left-radius: 0;
+ border-bottom-left-radius: 0;
+ border-top-right-radius: 6px;
+ border-bottom-right-radius: 6px;
+ background: #6f48eb;
+ color: white;
+}
+
+*{
+    text-align: center;
+}
+
+/*input{
+    width: 150px;
+    height : 20px;
+}*/
+/*
+select{
+    width: 160px;
+    height : 25px;
+}*/

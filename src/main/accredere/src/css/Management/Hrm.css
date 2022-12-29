@@ -1,0 +1,77 @@
+@font-face { /* 이사만루 폰트 */
+    font-family: 'GongGothicLight';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.Hrm_title{
+    display : flex;
+}
+
+*{ /* 전체 css */
+    font-family: 'GongGothicLight'; /* 이사만루 폰트 */
+    padding: 0px;
+    margin: 0px;
+    list-style: none;               /* 리스트 스타일 제거 */
+    text-decoration: none;
+}
+
+.hrm_all_box{   /* 전체 div */
+    width : 1200px;                 /* 전체 크기 */
+    margin : 0 auto;
+    margin-top: 50px;
+    padding: 50px;
+    background-color: #fcf8ff;      /* 배경색 */
+    font-size: 35px;
+}
+
+
+.searchbox{     /* 검색창 박스 */
+    text-align: center;
+    margin: 20px 10px 35px 10px;
+    font-size: 25px;
+}
+.PersonAdd_team, .PersonAdd_position{   /* select 창 */
+	display: inline-flex;
+	justify-content: space-around;
+}
+
+
+.hrm_li_item{     /* 직원추가 li */
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+    background-color: #ceaad3;
+    box-shadow: 3px 3px 5px #272429;
+    width: 100px;
+    text-align: center;
+    float: right;
+}
+
+.people_box{    /* 테이블박스 */
+/*    height : 1000px;
+    width : 1000px;
+    text-align : center;*/
+}
+.people{       /* 테이블 */
+    width: 100%;
+    text-align: center;
+    margin: 10px auto;
+    padding: 7px;
+}
+.people_title{      /* 테이블 tr */
+    height : 10px;
+}
+.people th{    /* 테이블 제목 */
+    border: solid 1px #262227;
+    background-color: #9888a2;
+    font-size: 20px;
+}
+.people td{
+    border: solid 1px #262227;
+    font-size : 17px;
+}
+
+.people_list{       /* 임의로 넣어둔 데이터 */
+    height : 10px;
+}

@@ -1,0 +1,56 @@
+#floatingbox{
+    width: 20rem;
+    position: relative;         /* 12/28 비아 수정 */
+    top: 65px;
+    right:30px;                 /* 12/28 비아 수정 */
+    z-index: 10;
+    opacity: 0.8;            /* 투명도 */
+    box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, .4);
+    text-align: center;
+    height: 700px;              /* 12/28 비아 수정 */
+}
+
+.floatContainer{
+    background-color: #393B44;
+    height: 100%;               /* 12/28 비아 수정 */
+}
+
+.floatTop{
+    width:100%;
+    height:50px;
+    background-color: #d1b8e1;
+    color: black;
+    font-size: 25px;            /* 12/28 비아 수정 */
+    font-weight: bold;
+    display: flex;              /* 12/28 비아 수정 */
+    padding: 10px 2px;
+}
+
+.topTitle{
+    margin:0 auto;
+}
+.floatBottomWrapper{            /* 12/28 비아 수정 */
+    display: flex;
+    overflow: scroll;
+    height: 645px;
+}
+
+.floatBottom{
+    background-color: #F1F3F8;
+    margin-top: 3px;
+    width: 100%;
+    height: fit-content;        /* 12/28 비아 수정 */
+    flex-basis: auto;
+    padding: 5px 10px 5px 10px;
+}
+.striped th{ font-size: 20px; }/* 12/28 비아 수정 */
+.striped td{ font-size: 15px; }/* 12/28 비아 수정 */
+.floatingbox_img{
+    width: 20px;
+}
+.stateimg{
+    width : 50px;
+}
+.stateimg{
+    width : 50px;
+}

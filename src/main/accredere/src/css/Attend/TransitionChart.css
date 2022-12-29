@@ -1,0 +1,20 @@
+
+
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+.transitionchart_wrapper{
+    display: flex;
+    height: fit-content;
+    width: 1077px;
+}
+.xbox{
+    display: flex;
+    margin-top: 415px;
+    color: grey;
+}
+.ybox{
+    color: grey;
+}

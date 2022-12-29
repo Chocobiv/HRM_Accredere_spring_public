@@ -1,0 +1,33 @@
+
+.box{
+    padding-left : 50px;
+}
+
+.chartbox{
+    width : 100px;
+}
+
+a{
+    color:black;
+    text-decoration:none;
+    outline : none;
+}
+
+ul{ list-style-type:none; }
+
+.person{
+    width : 800px;
+    height : 100px;
+    display : flex;
+    justify-content : space-between;
+    padding-left : 70px;
+}
+
+
+.opinion{
+    text-align: center;
+}
+.Evaluation_point{
+    font-size: 27px;
+}
+

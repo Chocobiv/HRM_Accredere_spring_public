@@ -1,0 +1,121 @@
+@font-face { /* 이사만루 폰트 */
+    font-family: 'GongGothicLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{ /* 전체 css */
+    font-family: 'GongGothicLight'; /* 이사만루 폰트 */
+    padding: 0px;
+    margin: 0px;
+    list-style: none;               /* 리스트 스타일 제거 */
+    text-decoration: none;
+}
+.attend_wrapper{ display: flex; }
+.attend_webbox{ /* 전체 div */
+    width : 1200px;                 /* 전체 크기 */
+    margin : 0 auto;
+    border: 1px solid black;
+    margin-top: 50px;
+    padding: 25px;
+    background-color: #fcf8ff;      /* 배경색 */
+}
+
+.at_timegraph{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.at_cn{ /* cn : campany name ( Attend Company ) 나오는 부분 */
+    padding: 10px;
+    font-size : 25px;
+    border-bottom: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: inline-grid;
+
+}
+
+.at_icon{ /* Attend Company 왼쪽에 있는 아이콘*/
+    float : left;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 35px;
+}
+
+.at_clock{ /* 시간 전체 div */
+    text-align : center;
+    border : 1px solid black;
+    font-size : 30px;
+    margin-bottom: 40px;
+    height : 300px;
+}
+
+.at_timediv{ /* 시간 표시되는 부분*/
+    border : 1px solid black;
+    text-align : center;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.at_time{
+    font-size : 100px
+}
+.at_date{
+    font-size : 45px;
+}
+.at_daycontent{ /* 날짜 나오는 부분*/
+    font-size : 19px;
+}
+
+.at_div{ /* 출 , 퇴근 버튼 전체 div*/
+    margin-bottom : 30px;
+}
+
+.at_hi{ /* 출근 버튼 */
+    margin-right: 100px;
+    border: 1px solid black;
+    width : 250px;
+    height : 200px;
+    display : flex;
+    justify-content: center;
+    align-items : center;
+    float : left;
+    border-radius: 15px;
+    font-size: 60px;
+    margin-left: 300px;
+}
+.at_bye{ /* 퇴근 버튼 */
+    border: 1px solid black;
+    width : 250px;
+    height : 200px;
+    display : flex;
+    justify-content: center;
+    align-items : center;
+    border-radius: 15px;
+    font-size: 60px;
+}
+
+.at_ipboxdiv{ /* input box 전체 div*/
+    text-align: center;
+    display: inline-grid;
+}
+
+.at_ipbox{ /* input box */
+    height : 50px;
+    width : 500px;
+    margin-bottom : 10px;
+    font-size: 30px;
+}
+
+.at_btn{
+    margin-bottom : 20px;
+    font-size : 35px;
+    width : 500px;
+}
+
+.at_cntext{
+    text-align: left;
+}

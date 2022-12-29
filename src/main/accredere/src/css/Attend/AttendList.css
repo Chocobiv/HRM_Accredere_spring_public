@@ -1,0 +1,144 @@
+@font-face { /* 이사만루 폰트 */
+    font-family: 'GongGothicLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{ /* 전체 css */
+    font-family: 'GongGothicLight'; /* 이사만루 폰트 */
+    padding: 0px;
+    margin: 0px;
+    list-style: none;               /* 리스트 스타일 제거 */
+    text-decoration: none;
+}
+.attendlist_wrapper{ display: flex; }
+.attendlist_webbox{ /* 전체 div */
+    width : 1200px;                 /* 전체 크기 */
+    margin : 0 auto;
+    margin-top: 50px;
+    padding: 50px;
+    background-color: #fcf8ff;
+}
+
+.at_pagetitle{
+    display: flex;
+    font-size: 45px;
+    margin: 10px;
+    padding: 5px;
+}
+.at_graph{
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+.at_statelist{
+    height : 100px;
+    display : flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.at_state{
+    width : 160px;
+    height : 100px;
+    font-size :25px;
+    font-weight : bold;
+}
+
+.at_list{
+    border: 1px solid black;
+    width : 100%;
+}
+
+th{
+    height : 50px;
+    border: none;
+    font-size: 25px;
+    background-color: #9888a2;
+}
+
+td{
+    background-color : white;
+    text-align : center;
+    font-size : 25px;
+    height : 50px;
+}
+
+.at_list th , .at_list td{
+    border : solid 1px black;
+}
+
+.at_btndiv{
+    height : 70px;
+    text-align : center;
+    font-size : 30px;
+}
+
+.at_btnl{
+    width : 50px;
+    height : 50px;
+    margin-top : 10px;
+    border-radius: 10px;
+    margin : 10px;
+    font-size : 20px;
+}
+.xbox{
+    margin-left: -30px;
+}
+/*------------------------------ Pagination ------------------------------*/
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  ul.pagination li {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #e2e2e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+  }
+
+  ul.pagination li:first-child{
+    border-radius: 5px 0 0 5px;
+  }
+
+  ul.pagination li:last-child{
+    border-radius: 0 5px 5px 0;
+  }
+
+  ul.pagination li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+  }
+
+  ul.pagination li.active a {
+    color: #aaaaaa;
+  }
+
+  ul.pagination li.active {
+    background-color: #fff2ff;
+  }
+
+  ul.pagination li a:hover,
+  ul.pagination li a.active {
+    color: blue;
+  }
+
+  .page-selection {
+    width: 48px;
+    height: 30px;
+    color: #337ab7;
+  }

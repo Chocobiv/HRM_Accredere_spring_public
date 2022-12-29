@@ -1,0 +1,85 @@
+@font-face { /* 이사만루 폰트 */
+    font-family: 'GongGothicLight';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{ /* 전체 css */
+    font-family: 'GongGothicLight'; /* 이사만루 폰트 */
+    padding: 0px;
+    margin: 0px;
+    list-style: none;               /* 리스트 스타일 제거 */
+    text-decoration: none;
+}
+
+/* 전체 div */
+.orderlist_webbox{
+    width : 1200px;                 /* 전체 크기 */
+    margin : 0 auto;
+    margin-top: 50px;
+    padding: 50px;
+    font-size: 35px;
+    background-color: #fcf8ff;      /* 배경색 */
+}
+.order_all_box{
+    display: flex;
+    flex-direction: column;
+}
+.B_title{
+    font-size: 45px;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+}
+
+.search_box{    /* 검색창 */
+    text-align: center;
+    margin: 20px 10px 35px 10px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+}
+.search_list{
+    width: 100%;
+	margin: 10px;
+	display: inline-flex;
+	justify-content: flex-star
+}
+.search_btn button{    /* 검색버튼 */
+    width: 160px;
+    height: 45px;
+}
+
+/* 인사현황 목록 테이블 */
+.or_table{
+    width: 100%;
+    text-align: center;
+    margin: 10px auto;
+    padding: 7px;
+}
+.or_table th{    /* 테이블 제목 */
+    border: solid 1px #262227;
+    background-color: #9888a2;
+    font-size: 20px;
+}
+.or_table td{
+    border: solid 1px #262227;
+    font-size : 17px;
+}
+
+
+/* 발령추가 버튼 */
+.list_wbtn{
+    margin: 20px;
+    padding: 10px;
+    width: 100%;
+    text-align : center;
+}
+.list_wbtn button{
+    width: 160px;
+    height: 50px;
+    margin: 15px;
+    font-size: 15px;
+    float: right;
+}

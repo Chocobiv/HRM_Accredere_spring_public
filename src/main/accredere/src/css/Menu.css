@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'GongGothicLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.index_wrapper{ margin-top: 325px; }
+.index_pbox{ font-size: 60px; margin-bottom: 35px; }
+.index_h1{ margin-bottom: 65px; font-family: 'GongGothicLight'; }
+.m_login_box{
+    margin: 110px;
+    display: flex;              /* 12/28 비아 추가 */
+    justify-content: center;
+}
+.login_box_attend_btn{/* 12/28 비아 추가 */
+    height: 49px;
+    width: 230px;
+    font-size: 25px;
+    margin: 4px 60px 0 0;
+    border-radius: 4px;
+    border: none;
+    background-color: #e2d0ef;
+}
+.login_box_attend_btn a:hover{ color: black; }
+
+/* ----------------- 로고이미지 애니메이션 -------------------- */
+.index_wrapper figure{
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+}
+.index_wrapper figure::before {
+    position: absolute;
+    top: 0;
+    left: -75%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+    -webkit-transform: skewX(-25deg);
+    transform: skewX(-25deg);
+}
+.index_wrapper figure:hover::before {
+    -webkit-animation: shine 3s;
+    animation: shine 3s;
+}
+@-webkit-keyframes shine {
+    100% { left: 125%; }
+}
+@keyframes shine {
+    100% { left: 125%; }
+}
+
+
+/* --------------- 텍스트 애니메이션 ----------------- */
+.index_h1 {
+    margin: auto;
+    width: 35ch;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .05em solid black;        /* 깜박임 커서 */
+    animation: typing 3s steps(25);       /* 타이핑 속도 */
+    animation-iteration-count: infinite;    /* 무한반복 */
+/*    animation: typing 10s 1;*/
+/*    animation-fill-mode : 5s backwards;*/
+}
+
+@keyframes typing{
+  from{ width: 0; }
+}
+
+@keyframes cursor{
+  50%{ border-color: transparent; }
+}
+

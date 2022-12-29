@@ -1,0 +1,65 @@
+.adminLogin_wrapper{
+    width: 400px;
+    margin: 250px auto;
+    position: relative;
+}
+.adminLogin_img{
+    margin: 100px 0 70px 0;
+}
+.adminLogin_btnlogin{
+    width: 400px;
+    background-color: #e9ccf1;
+    border: 1px solid #e9ccf1;
+}
+.adminLogin_btnlogin:hover{
+    background-color: #e4c2ee;
+    border: 1px solid #e4c2ee;
+}
+.adminLogin_btnlogin:active{
+     background-color: #e9ccf1;
+     border: 1px solid #e9ccf1;
+ }
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #eed5ff;
+    --bs-btn-border-color: #eed5ff;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #eed5ff;
+    --bs-btn-hover-border-color: #eed5ff;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #eed5ff;
+    --bs-btn-active-border-color: #eed5ff;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #eed5ff;
+    --bs-btn-disabled-border-color: #eed5ff;
+}
+
+.adminLogin_wrap_box{
+    margin: 0 auto;
+    width: 600px;
+    height: 800px;
+    position: relative;
+}
+.adminLogin_wrap_box::before{
+    border-radius: 0 5em;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    opacity: 0.3;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    content: "";
+    background-size: cover;
+}
+
+#form_id, #form_pw{
+    height: 35px;
+}
+.adminLogin_btnlogin{
+    font-size: 20px;
+}
+

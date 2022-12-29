@@ -1,0 +1,97 @@
+@font-face { /* 이사만루 폰트 */
+    font-family: 'GongGothicLight';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{ /* 전체 css */
+    font-family: 'GongGothicLight'; /* 이사만루 폰트 */
+    padding: 0px;
+    margin: 0px;
+    list-style: none;               /* 리스트 스타일 제거 */
+    text-decoration: none;
+}
+.paylist_webbox{ /* 전체 div */
+    width : 1200px;                 /* 전체 크기 */
+    margin : 0 auto;
+    margin-top: 50px;
+    padding: 50px;
+    background-color: #fcf8ff;      /* 배경색 */
+    font-size: 35px;
+}
+.pay_all_box{   /* 제목, 검색구역 묶음 박스 */
+    display: flex;
+    flex-direction: column;
+}
+.B_title{ /* 페이지 대제목 */
+    margin: 10px auto;
+    padding: 5px;
+    font-size: 40px;
+    display: flex;
+}
+
+.search_box{    /* 검색창 자체 */
+    text-align: center;
+    margin: 20px 10px 35px 10px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+}
+.search_list{   /* 검색창 */
+    width: 70%;
+	margin: 10px;
+/*	display: inline-flex;
+	justify-content: space-around;*/
+}
+
+.search_btn{    /* 검색버튼 */
+    width: 50%;
+}
+
+.num_list{      /* 직원수 표시 박스 */
+	margin: 10px;
+	float: right;
+	font-size: 12px;
+}
+.list_size{     /* 직원수 표시 select창 */
+    width: 80px;
+    height: 30px;
+}
+
+
+.p_table{   /* 급여관리 테이블 */
+    width: 100%;
+    text-align: center;
+    margin: 10px auto;
+    padding: 7px;
+}
+.p_table th{    /* 테이블 제목 */
+    border: solid 1px #262227;
+    background-color: #9888a2;
+}
+.p_table td{
+    border: solid 1px #262227;
+}
+
+/* 발령추가할 직원을 클릭했을때 이벤트 */
+.order_click:hover{
+    background-color: #dfc7f0;
+}
+.order_click:active{
+    background-color: #dfc7f0;
+}
+
+/* 버튼효과 */
+Button{
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+    background-color: #ceaad3;
+    box-shadow: 3px 3px 5px #272429;
+    width: 100px;
+    text-align: center;
+    float: right;
+}
+
+
